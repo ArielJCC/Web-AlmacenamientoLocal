@@ -1,0 +1,105 @@
+/* Estilos para la página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  /* Elimina los márgenes*/
+  padding: 0;
+  /* Elimina el relleno*/
+  background-color: #c8bddd;
+  /* Establece el color de fondo */
+}
+
+.container {
+  max-width: 600px;
+  /* Ancho máximo del contenedor */
+  margin: 50px auto;
+  /* Centra el contenedor horizontalmente */
+  padding: 20px;
+  background-color: #ffffff;
+  /* Color de fondo del contenedor */
+  border-radius: 5px;
+  /* Añade bordes redondeados al contenedor */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Añade una sombra suave al contenedor */
+}
+
+h1 {
+  text-align: center;
+  /* Centra el texto horizontalmente */
+  color: #020202;
+  /* Establece el color del texto */
+}
+
+form {
+  margin-top: 20px;
+  /* Añade espacio superior al formulario */
+}
+
+label {
+  display: block;
+  /* Muestra las etiquetas como bloques */
+  font-weight: bold;
+  /* Establece el peso de la fuente a negrita */
+  margin-bottom: 5px;
+  /* Añade espacio inferior a las etiquetas */
+  color: #070707;
+  /* Establece el color del texto de las etiquetas */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select {
+  width: 100%;
+  /* Establece el ancho al 100% */
+  padding: 10px;
+  /* Añade espacio interno */
+  margin-bottom: 15px;
+  /* Añade espacio inferior */
+  border: 1px solid #201cfd;
+  /* Establece el borde del campo */
+  border-radius: 4px;
+  /* Añade bordes redondeados */
+  box-sizing: border-box;
+  /* Incluye el padding y el borde en el ancho total */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="date"]:focus,
+select:focus {
+  outline: none;
+  /* Elimina el contorno de enfoque */
+  border-color: #2d0beb;
+  /* Cambia el color del borde al enfocar */
+  box-shadow: 0 0 5px rgba(60, 5, 150, 0.5);
+  /* Añade una sombra al enfocar */
+}
+
+button {
+  display: block;
+  /* Muestra el botón como bloque */
+  width: 100%;
+  /* Establece el ancho al 100% */
+  padding: 10px;
+  /* Añade espacio interno */
+  background-color: #2701ff;
+  /* Establece el color de fondo del botón */
+  color: #fff;
+  /* Establece el color del texto del botón */
+  border: none;
+  /* Elimina el borde del botón */
+  border-radius: 4px;
+  /* Añade bordes redondeados */
+  cursor: pointer;
+  /* Cambia el cursor a un puntero */
+  transition: background-color 0.3s ease;
+  /* Agrega una transición suave */
+}
+
+button:hover {
+  background-color: #712edd;
+  /* Cambia el color de fondo al pasar el cursor */
+}
